@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../fones/bg.png);
+    min-height: 900px;
+    background-size: cover;
+    padding-top: 39px;
+    position: relative;
+    z-index: 0;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    top: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-weight: 800;
+}
+.center h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 90px;
+}
+
+.center p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.center h1 b {
+    color: #fb2274;
+}
+
+.center {
+    margin-top: 269px;
+}
+
+.text-standart {
+    margin: 0 auto;
+    width: 920px;
+    text-align: center;
+    font-size: 29px;
+    color: rgba(169, 169, 169, 255);
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: rgba(68, 68, 68, 255);
+    text-transform: uppercase;
+}
+
+.button {
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 234px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(251, 34, 116, 255);
+    color: rgba(251, 34, 116, 255);
+    font-size: 24px;
+    margin-top: 49px;
+}
+
+.services {
+    background-color: rgb(216, 216, 216);
+    padding-bottom: 80px;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+    
+}
+
+.photo-block p {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.photo-text {
+    height: 82px;
+    width: 370px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    transform: translateY(-2px);
+    width: 100%;
+}
+
+
+.login {
+    border-bottom: 0;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.password {
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.password::placeholder,.login::placeholder,.desc::placeholder {
+    color: rgba(169, 169, 169, 255);
+    font-size: 18px;
+}
+
+.form {
+    width:380px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+form {
+    padding: 0 50px;
+}
+
+.input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 56px;
+    border: 1px solid #c2c2c2;
+    margin: 20px auto;
+}
+
+.foot {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot p {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.button-two {
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(251, 34, 116, 255);
+    color: rgba(251, 34, 116, 255);
+    font-size: 24px;
+}
+
+.desc {
+    height: 156px;
+    padding-left: 15px;
+}
+
+.foot > ymaps {
+    width: 50% !important;
+}
+
+.foot > div {
+    width: 50%;
+}
+
+@media (max-width: 1175px) {
+    .container {
+        width: 1000px;
+    }
+    .main-photo {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .photo-block {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:1100px) {
+    .foot {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foot > div  {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .foot > ymaps {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width:920px) {
+    .text-standart {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .center h1 {
+        font-size: 70px;
+    }
+    header {
+        min-height: 600px;
+    }
+    .center {
+        margin-top: 115px;
+    }
+}
