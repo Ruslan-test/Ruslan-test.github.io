@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Престиж — стоматология в Симферополе · WOW-концепт главной</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04060c;--ink:#eef3ff;--mute:#8e9ab8;--cy:#5ee7ff;--vi:#a78bfa;--pk:#f0abfc;--glass:rgba(255,255,255,.055);--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:Onest,Inter,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+.disp{font-family:Unbounded,sans-serif}
+a{color:inherit;text-decoration:none}
+/* ambient */
+.aurora{position:fixed;inset:-20%;z-index:0;pointer-events:none;filter:blur(90px);opacity:.55}
+.aurora i{position:absolute;border-radius:50%}
+.aurora i:nth-child(1){width:46vw;height:46vw;left:48%;top:8%;background:radial-gradient(circle,#2563eb 0,transparent 65%);animation:drift 18s ease-in-out infinite}
+.aurora i:nth-child(2){width:38vw;height:38vw;left:62%;top:30%;background:radial-gradient(circle,#7c3aed 0,transparent 65%);animation:drift 22s ease-in-out infinite reverse}
+.aurora i:nth-child(3){width:30vw;height:30vw;left:5%;top:60%;background:radial-gradient(circle,#0891b2 0,transparent 65%);animation:drift 26s ease-in-out infinite}
+@keyframes drift{50%{transform:translate(-6vw,4vh) scale(1.12)}}
+.grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.grid{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 55% at 68% 45%,#000 0,transparent 75%);opacity:.35}
+main,nav{position:relative;z-index:2}
+.wrap{width:min(1280px,92vw);margin:0 auto}
+/* nav */
+nav{position:fixed;top:22px;left:50%;transform:translateX(-50%);width:min(1280px,92vw);display:flex;align-items:center;justify-content:space-between;padding:12px 14px 12px 26px;border-radius:999px;background:rgba(10,14,28,.45);border:1px solid var(--line);backdrop-filter:blur(18px) saturate(1.4);z-index:50}
+.logo{display:flex;align-items:center;gap:10px;font-family:Unbounded;font-weight:600;letter-spacing:.14em;font-size:15px}
+.logo b{width:26px;height:26px;border-radius:9px;background:conic-gradient(from 200deg,var(--cy),var(--vi),var(--pk),var(--cy));box-shadow:0 0 22px rgba(94,231,255,.5)}
+nav ul{display:flex;gap:34px;list-style:none;font-size:14px;color:#c8d1ea}
+nav .r{display:flex;align-items:center;gap:22px;font-size:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:500;font-size:15px;border:1px solid var(--line);transition:.3s}
+.btn.pri{background:linear-gradient(120deg,#e9fbff,#c7d2fe 60%,#f5d0fe);color:#0a0e1c;border:0;box-shadow:0 10px 40px -10px rgba(140,200,255,.7),inset 0 1px 0 #fff}
+.btn.pri:hover{transform:translateY(-2px);box-shadow:0 18px 50px -10px rgba(140,200,255,.9)}
+.btn.gh{background:var(--glass);backdrop-filter:blur(12px)}
+/* hero */
+.hero{position:relative;height:100vh;min-height:860px;display:flex;align-items:center;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);padding:8px 16px;border:1px solid var(--line);border-radius:999px;background:var(--glass)}
+.eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--cy);box-shadow:0 0 12px var(--cy);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.3}}
+h1{font-family:Unbounded;font-weight:600;font-size:72px;line-height:1.02;letter-spacing:-.035em;margin:28px 0 26px}
+h1 .g{background:linear-gradient(100deg,#fff 0%,var(--cy) 35%,var(--vi) 65%,var(--pk) 100%);background-size:200% auto;-webkit-background-clip:text;color:transparent;animation:sheen 6s linear infinite}
+@keyframes sheen{to{background-position:200% center}}
+h1 .ln{display:block;overflow:hidden}
+h1 .ln span{display:inline-block;transform:translateY(110%);animation:up 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+h1 .ln:nth-child(2) span{animation-delay:.12s}h1 .ln:nth-child(3) span{animation-delay:.24s}
+@keyframes up{to{transform:none}}
+.lead{font-size:19px;line-height:1.55;color:#b6c0dc;max-width:520px;opacity:0;animation:fade 1s .6s forwards}
+.ctas{display:flex;gap:14px;margin-top:38px;opacity:0;animation:fade 1s .8s forwards}
+@keyframes fade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.chips{display:flex;gap:10px;margin-top:46px;flex-wrap:wrap;opacity:0;animation:fade 1s 1s forwards}
+.chip{font-size:13px;color:#c8d1ea;padding:9px 14px;border-radius:12px;background:var(--glass);border:1px solid var(--line)}
+/* stage */
+.stage{position:relative;height:760px;perspective:1200px}
+.obj{position:absolute;left:50%;top:50%;width:640px;height:640px;transform:translate(-50%,-50%);transform-style:preserve-3d}
+.tooth{position:absolute;inset:0;transform-style:preserve-3d;animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-22px) rotateZ(-2deg)}}
+.tooth img{position:absolute;left:0;width:100%;-webkit-mask-image:radial-gradient(ellipse 48% 50% at 50% 50%,#000 70%,transparent 100%)}
+.tooth .cr{top:0;animation:crown 6s ease-in-out infinite}
+.tooth .im{top:49.8%}
+@keyframes crown{50%{transform:translateY(-14px)}}
+.halo{position:absolute;left:50%;top:50%;width:560px;height:560px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(94,231,255,.22),rgba(167,139,250,.12) 40%,transparent 68%);filter:blur(10px);animation:breathe 6s ease-in-out infinite}
+@keyframes breathe{50%{transform:translate(-50%,-50%) scale(1.1);opacity:.8}}
+.orbit{position:absolute;left:50%;top:52%;width:620px;height:620px;margin:-310px 0 0 -310px;border-radius:50%;border:1px solid rgba(160,200,255,.28);transform:rotateX(74deg) rotateZ(0);animation:spin 18s linear infinite;box-shadow:0 0 40px rgba(94,231,255,.15) inset}
+.orbit.o2{width:500px;height:500px;margin:-250px 0 0 -250px;border-color:rgba(240,171,252,.22);transform:rotateX(74deg) rotateY(18deg);animation-duration:26s;animation-direction:reverse}
+.orbit::after{content:"";position:absolute;top:-6px;left:50%;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 0 18px 4px var(--cy)}
+@keyframes spin{to{transform:rotateX(74deg) rotateZ(360deg)}}
+.orbit.o2{animation-name:spin2}@keyframes spin2{to{transform:rotateX(74deg) rotateY(18deg) rotateZ(-360deg)}}
+.gcard{position:absolute;padding:18px 20px;border-radius:22px;background:linear-gradient(140deg,rgba(255,255,255,.12),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(20px) saturate(1.5);box-shadow:0 30px 60px -20px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.2)}
+.gcard small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.gcard strong{font-family:Unbounded;font-weight:500;font-size:18px}
+.gcard.a{left:-10px;top:150px;animation:float 7s ease-in-out infinite}
+.gcard.b{right:-20px;top:410px;animation:float 8s 1s ease-in-out infinite}
+.gcard.c{right:30px;top:90px;padding:14px 16px;animation:float 9s .5s ease-in-out infinite}
+.bar{height:6px;width:180px;border-radius:9px;background:rgba(255,255,255,.1);margin-top:12px;overflow:hidden}
+.bar i{display:block;height:100%;width:78%;background:linear-gradient(90deg,var(--cy),var(--vi));border-radius:9px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 10px #4ade80;margin-right:8px}
+.scroll{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;font-size:12px;letter-spacing:.2em;color:var(--mute);text-transform:uppercase}
+.scroll i{width:22px;height:36px;border:1px solid var(--line);border-radius:12px;position:relative}
+.scroll i::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:8px;margin-left:-1.5px;border-radius:3px;background:#fff;animation:wheel 1.8s infinite}
+@keyframes wheel{to{transform:translateY(12px);opacity:0}}
+/* marquee */
+.mq{border-block:1px solid var(--line);padding:26px 0;overflow:hidden;white-space:nowrap;background:rgba(255,255,255,.015)}
+.mq div{display:inline-flex;gap:56px;animation:mq 30s linear infinite;font-family:Unbounded;font-weight:300;font-size:30px;color:#c9d3ef}
+.mq span::after{content:"✦";margin-left:56px;color:var(--vi)}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* section heads */
+section{position:relative}
+.sh{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px}
+.sh h2{font-family:Unbounded;font-weight:500;font-size:52px;letter-spacing:-.03em;line-height:1.05;max-width:760px}
+.sh p{color:var(--mute);max-width:360px;line-height:1.6}
+.num{font-size:13px;letter-spacing:.2em;color:var(--cy);margin-bottom:18px;display:block}
+/* anatomy */
+.anat{padding:150px 0 140px}
+.anat .box{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center}
+.ast{position:relative;height:620px;border-radius:40px;background:radial-gradient(circle at 50% 40%,rgba(94,231,255,.14),transparent 60%),linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.01));border:1px solid var(--line);overflow:hidden}
+.ast .grid{mask-image:radial-gradient(circle at 50% 50%,#000,transparent 70%)}
+.ast img{position:absolute;left:40%;width:480px;margin-left:-240px;-webkit-mask-image:radial-gradient(ellipse 48% 50% at 50% 50%,#000 70%,transparent 100%);transition:transform .1s linear}
+.ast .cr{top:50px}.ast .im{top:290px}
+.lbl{position:absolute;font-size:13px;color:#c8d1ea;display:flex;align-items:center;gap:10px}
+.lbl::before{content:"";width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--cy))}
+.lbl{flex-direction:row-reverse}.lbl::before{background:linear-gradient(270deg,transparent,var(--cy))}.lbl.l1{right:26px;top:170px}.lbl.l2{right:26px;top:440px}
+.steps{display:flex;flex-direction:column;gap:16px}
+.step{display:grid;grid-template-columns:70px 1fr;gap:20px;padding:28px 30px;border-radius:26px;background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(14px);transition:.5s}
+.step.on{background:linear-gradient(130deg,rgba(94,231,255,.12),rgba(167,139,250,.08));border-color:rgba(94,231,255,.35);box-shadow:0 20px 60px -30px rgba(94,231,255,.6)}
+.step b{font-family:Unbounded;font-weight:300;font-size:34px;color:var(--cy)}
+.step h3{font-family:Unbounded;font-weight:500;font-size:21px;margin-bottom:8px}
+.step p{color:#aab4d0;line-height:1.55;font-size:15px}
+/* bento */
+.svc{padding:40px 0 140px}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;gap:18px}
+.card{position:relative;padding:30px;border-radius:30px;background:linear-gradient(150deg,rgba(255,255,255,.08),rgba(255,255,255,.015));border:1px solid var(--line);overflow:hidden;transform-style:preserve-3d;transition:transform .4s,border-color .4s;display:flex;flex-direction:column;justify-content:space-between}
+.card:hover{border-color:rgba(94,231,255,.4)}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(400px circle at var(--mx,30%) var(--my,0%),rgba(94,231,255,.16),transparent 45%);pointer-events:none}
+.card h3{font-family:Unbounded;font-weight:500;font-size:22px;letter-spacing:-.01em;line-height:1.2}
+.card p{color:#aab4d0;font-size:14.5px;line-height:1.5;max-width:300px}
+.card .ic{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:rgba(255,255,255,.08);border:1px solid var(--line)}
+.card.big{grid-column:span 2;grid-row:span 2;justify-content:flex-end}
+.card.big img{position:absolute;right:-60px;top:-40px;width:520px;opacity:.95;animation:float 8s ease-in-out infinite;-webkit-mask-image:radial-gradient(circle,#000 55%,transparent 72%)}
+.card.big h3{font-size:34px;max-width:380px}
+.card.wide{grid-column:span 2}
+.arr{position:absolute;right:26px;top:26px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font-size:18px}
+/* cta */
+.cta{padding:0 0 120px}
+.ctabox{position:relative;border-radius:44px;padding:80px;overflow:hidden;background:radial-gradient(circle at 85% 30%,rgba(167,139,250,.35),transparent 50%),radial-gradient(circle at 10% 90%,rgba(94,231,255,.25),transparent 50%),#0a0f1f;border:1px solid var(--line);display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
+.ctabox h2{font-family:Unbounded;font-weight:500;font-size:50px;line-height:1.05;letter-spacing:-.03em}
+.ctabox p{color:#b6c0dc;margin:22px 0 0;line-height:1.6;max-width:480px}
+.form{display:flex;flex-direction:column;gap:12px;padding:28px;border-radius:28px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(20px)}
+.form .in{padding:18px 20px;border-radius:16px;background:rgba(0,0,0,.25);border:1px solid var(--line);color:var(--mute);font-size:15px}
+.form .btn{justify-content:center;margin-top:6px}
+.form small{color:var(--mute);font-size:12px;text-align:center}
+.contacts{display:flex;gap:40px;margin-top:34px;font-size:14px;color:#c8d1ea}
+.contacts span{display:block;color:var(--mute);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+footer{padding:30px 0 50px;color:#5f6a88;font-size:13px;display:flex;justify-content:space-between}
+/* reveal */
+.rv{opacity:0;transform:translateY(50px) scale(.98);transition:1s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+body.static .rv{opacity:1;transform:none}
+body.static *{animation-play-state:paused!important}
+body.static h1 .ln span,body.static .lead,body.static .ctas,body.static .chips{animation:none;transform:none;opacity:1}
+body.static nav{position:absolute}
+</style>
+</head>
+<body>
+<div class="aurora"><i></i><i></i><i></i></div>
+<div class="grain"></div>
+
+<nav>
+  <a class="logo" href="#"><b></b>ПРЕСТИЖ</a>
+  <ul><li>Услуги</li><li>Имплантация</li><li>Врачи</li><li>Цены</li><li>Контакты</li></ul>
+  <div class="r"><span>+7 (978) 000-00-00</span><a class="btn pri" href="#cta">Записаться</a></div>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="grid"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow"><i></i>Стоматология · Симферополь</span>
+      <h1><span class="ln"><span>Улыбка,</span></span><span class="ln"><span>собранная</span></span><span class="ln"><span class="g">до микрона</span></span></h1>
+      <p class="lead">Лечим, восстанавливаем и имплантируем зубы без боли и страха — от профилактики до новой улыбки, всё в одной клинике.</p>
+      <div class="ctas"><a class="btn pri" href="#cta">Записаться на консультацию →</a><a class="btn gh" href="#anat">Как это работает</a></div>
+      <div class="chips"><span class="chip">Лицензия Минздрава</span><span class="chip">Опытные врачи</span><span class="chip">Оплата картой</span></div>
+    </div>
+    <div class="stage" id="stage">
+      <div class="halo"></div>
+      <div class="orbit"></div><div class="orbit o2"></div>
+      <div class="obj" id="obj">
+        <div class="tooth"><img class="cr" src="assets/crown.png" alt=""><img class="im" src="assets/implant.png" alt=""></div>
+      </div>
+      <div class="gcard a"><small>Имплантация</small><strong>Корень + коронка</strong><div class="bar"><i></i></div></div>
+      <div class="gcard b"><small>Онлайн-запись</small><strong><span class="dot"></span>Сегодня есть окна</strong></div>
+      <div class="gcard c"><small>3D</small><strong>Покрутите зуб ↻</strong></div>
+    </div>
+  </div>
+  <div class="scroll"><i></i>Листайте</div>
+</section>
+
+<div class="mq"><div><span>Имплантация</span><span>Виниры и коронки</span><span>Лечение под микроскопом</span><span>Брекеты</span><span>Гигиена</span><span>Детская стоматология</span><span>Имплантация</span><span>Виниры и коронки</span><span>Лечение под микроскопом</span><span>Брекеты</span><span>Гигиена</span><span>Детская стоматология</span></div></div>
+
+<section class="anat" id="anat">
+  <div class="wrap">
+    <div class="sh rv"><div><span class="num">01 — АНАТОМИЯ ИМПЛАНТА</span><h2>Новый зуб собирается у вас на глазах</h2></div><p>Три шага от первой консультации до улыбки, которую не отличить от естественной.</p></div>
+    <div class="box">
+      <div class="ast rv" id="ast"><div class="grid"></div>
+        <img class="cr" id="acr" src="assets/crown.png" alt=""><img class="im" id="aim" src="assets/implant.png" alt="">
+        <span class="lbl l1">Коронка из керамики</span><span class="lbl l2">Титановый имплант</span>
+      </div>
+      <div class="steps">
+        <div class="step rv"><b>01</b><div><h3>Диагностика</h3><p>Осмотр, снимки и понятный план лечения: что делаем, в какой последовательности и сколько это займёт.</p></div></div>
+        <div class="step rv"><b>02</b><div><h3>Установка импланта</h3><p>Титановый корень встаёт в кость и приживается. Процедура проходит под анестезией.</p></div></div>
+        <div class="step rv"><b>03</b><div><h3>Коронка</h3><p>Керамическая коронка в цвет ваших зубов — улыбка, которую не отличить от естественной.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="svc">
+  <div class="wrap">
+    <div class="sh rv"><div><span class="num">02 — УСЛУГИ</span><h2>Всё для здоровой улыбки в одной клинике</h2></div><p>От профилактики до сложного протезирования. Лицензированная помощь по стандартам Минздрава РФ.</p></div>
+    <div class="bento">
+      <div class="card big rv"><img src="assets/glass.png" alt=""><span class="arr">↗</span><div><h3>Имплантация и протезирование</h3><p style="margin-top:14px">Импланты, коронки, виниры, все виды протезирования любой сложности.</p></div></div>
+      <div class="card rv"><span class="ic">✦</span><div><h3>Лечение зубов</h3><p>Кариес и пульпит без боли</p></div></div>
+      <div class="card rv"><span class="ic">◐</span><div><h3>Ортодонтия</h3><p>Брекеты и исправление прикуса</p></div></div>
+      <div class="card rv"><span class="ic">❋</span><div><h3>Гигиена</h3><p>Бережная чистка и отбеливание</p></div></div>
+      <div class="card rv"><span class="ic">☺</span><div><h3>Детям</h3><p>Спокойно, без страха и слёз</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="cta">
+  <div class="wrap">
+    <div class="ctabox rv">
+      <div><span class="num">03 — ЗАПИСЬ</span><h2>Начните с консультации</h2><p>Оставьте телефон — администратор перезвонит, подберёт удобное время и ответит на вопросы.</p>
+        <div class="contacts"><div><span>Адрес</span>Симферополь, центр города</div><div><span>Телефон</span>+7 (978) 000-00-00</div></div>
+      </div>
+      <div class="form"><div class="in">Ваше имя</div><div class="in">+7 (___) ___-__-__</div><a class="btn pri">Записаться →</a><small>Перезвоним в течение 15 минут в рабочее время</small></div>
+    </div>
+    <footer><span>© Престиж, стоматология в Симферополе</span><span>Концепт главной страницы · дизайн: Дарина</span></footer>
+  </div>
+</section>
+</main>
+
+<script>
+const S=new URLSearchParams(location.search).has('static');
+if(S)document.body.classList.add('static');
+// reveal on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+// hero tilt by mouse
+const obj=document.getElementById('obj');
+addEventListener('mousemove',e=>{const x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;obj.style.transform=`translate(-50%,-50%) rotateY(${x*24}deg) rotateX(${-y*18}deg)`});
+// drag to rotate
+let drag=false,lx=0,ry=0;const st=document.getElementById('stage');
+st.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX});addEventListener('pointerup',()=>drag=false);
+addEventListener('pointermove',e=>{if(!drag)return;ry+=(e.clientX-lx)*.6;lx=e.clientX;obj.style.transform=`translate(-50%,-50%) rotateY(${ry}deg)`});
+// anatomy: crown descends on scroll, steps light up
+const ast=document.getElementById('ast'),acr=document.getElementById('acr'),aim=document.getElementById('aim'),steps=[...document.querySelectorAll('.step')];
+function anat(p){acr.style.transform=`translateY(${(1-p)*-150+p*12}px) rotate(${(1-p)*-14}deg)`;aim.style.transform=`translateY(${(1-p)*120}px)`;
+ steps.forEach((s,i)=>s.classList.toggle('on',p>=i/3-.02&&(p<(i+1)/3||i==2&&p>=.66)))}
+function onScroll(){const r=ast.getBoundingClientRect();let p=(innerHeight-r.top)/(innerHeight+r.height*.2);p=Math.min(1,Math.max(0,(p-.25)/.6));anat(p);
+ document.querySelector('.hero .stage').style.transform=`translateY(${scrollY*.25}px)`}
+addEventListener('scroll',onScroll,{passive:true});
+window.__anat=anat;
+if(S){anat(.55)}else onScroll();
+// card tilt + spotlight
+document.querySelectorAll('.card').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+ c.style.setProperty('--mx',x*100+'%');c.style.setProperty('--my',y*100+'%');c.style.transform=`perspective(900px) rotateY(${(x-.5)*10}deg) rotateX(${(.5-y)*10}deg)`});
+ c.addEventListener('mouseleave',()=>c.style.transform='')});
+</script>
+</body>
+</html>
